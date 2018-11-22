@@ -40,5 +40,6 @@ def play board
   number_of_plays = 0
   until number_of_plays == 8
     turn(board)
+    number_of_plays += 1
   end
 end
